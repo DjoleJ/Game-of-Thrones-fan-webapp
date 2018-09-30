@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+
+<rss version="2.0">
+	<channel>
+		<title>Game of Thrones</title>
+		<link>https://gameofthrones.000webhostapp.com/index.html</link>
+		<description>Everything you need to know about Game of Thrones</description>
+		<item>
+			<title>Game of Thrones season 7 coming soon!</title>
+			<link>https://gameofthrones.000webhostapp.com/vest1.html</link>
+		    <description>Find out more about Season 7 of Game of Thrones</description>
+		</item>
+		<item>
+			<title>Winds of Winter coming soon!</title>
+			<link>https://gameofthrones.000webhostapp.com/vest2.html</link>
+		    <description>Find out more about new G.R.R.M. book Winds of Winter</description>
+		</item>
+		<item>
+			<title>GoT triumphs at 2016 Emmys</title>
+			<link>https://gameofthrones.000webhostapp.com/vest3.html</link>
+		    <description>See how GoT cast looked at 2016 Emmys and what they won</description>
+		</item>
+		<item>
+			<title>Game of Thrones season 8 will be the last one</title>
+			<link>https://gameofthrones.000webhostapp.com/vest4.html</link>
+		    <description>Find out what GoT Producers said about final Game of Thrones season</description>
+		</item>
+		<item>
+			<title>Kit Harington and Rose Leslie are together</title>
+			<link>https://gameofthrones.000webhostapp.com/vest5.html</link>
+		    <description>See what Kit Harington had to say about his relationship with Rose Leslie</description>
+		</item>
+		<item>
+			<title>Conor McGregor to star in future GoT Seasons</title>
+			<link>https://gameofthrones.000webhostapp.com/vest6.html</link>
+		    <description>See if your favorite UFC fighter will star in your favorite TV Show</description>
+		</item>
+		<item>
+			<title>Alfie Allen on Theon in Season 7</title>
+			<link>https://gameofthrones.000webhostapp.com/vest7.html</link>
+		    <description>See what Alfie Allen had to say about his character Theon in next season of Game of Thrones</description>
+		</item>
+	</channel>
+</rss>

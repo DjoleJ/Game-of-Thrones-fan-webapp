@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<books>
+	<book>
+		<name>A Game of Thrones</name>
+		<link>https://gameofthrones.000webhostapp.com/agameofthrones.html</link>
+	</book>
+	<book>
+		<name>A Clash of Kings</name>
+		<link>https://gameofthrones.000webhostapp.com/aclashofkings.html</link>
+	</book>
+	<book>
+		<name>A Storm of Swords</name>
+		<link>https://gameofthrones.000webhostapp.com/astormofswords.html</link>
+	</book>
+	<book>
+		<name>A Feast for Crows</name>
+		<link>https://gameofthrones.000webhostapp.com/afeastforcrows.html</link>
+	</book>
+	<book>
+		<name>A Dance with Dragons</name>
+		<link>https://gameofthrones.000webhostapp.com/adancewithdragons.html</link>
+	</book>
+</books>

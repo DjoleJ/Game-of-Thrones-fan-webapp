@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Conor McGregor to star in future GoT Seasons</title>
+		<link rel="shortcut icon" href="slike/gotlogo.png">
+		<meta content="text/html" charset="utf-8">
+		<meta name="description" content="Game of Thrones popular HBO Tv Show"/>
+		<meta name="keywords" content="Game of Thrones, HBO, TV Show, Series, GoT, Game of Thrones Books, Game of Thrones Seasons"/>
+		<meta name="author" content="Đorđe Jodanović, Visoka ICT Škola, Beograd"/>
+		<link rel="stylesheet" type="text/css" href="stil.css">
+		<script src="jquery-1.7.1.min.js.js"></script>
+		<script src="bjqs-1.3.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+
+<body>
+
+	<div id="omot">
+	
+		<nav id="meni">
+			<a href="index.html"><img src="slike/logo.jpg" id="logo"/></a>
+			
+				<ul class="parent">
+					<li><a href="index.html">HOMEPAGE</a></li>
+					<li><a href="seasons.html">SEASONS</a></li>
+					<li><a href="#">BOOKS</a>
+						<ul class="child">
+							<li><a href="agameofthrones.html">A GAME OF THRONES</a></li>
+							<li><a href="aclashofkings.html">A CLASH OF KINGS</a></li>
+							<li><a href="astormofswords.html">A STORM OF SWORDS</a></li>
+							<li><a href="afeastforcrows.html">A FEAST FOR CROWS</a></li>
+							<li><a href="adancewithdragons.html">A DANCE WITH DRAGONS</a></li>
+							
+						</ul>
+					</li>
+					<li><a href="author.html">AUTHOR</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+				
+					<form name="fSearch" class="searchForm2">
+						<img src="slike/search.png" alt="searchLogo" id="searchPic" onClick="pretraga()"/>
+						<div id="probS">
+							<div id="container">
+								<div class="searchToggle" style="display:none">
+									<input type="text" id="tbSearch" size="22" autocomplete="off" placeholder="Pretraži seriju..."/>
+								</div>
+							</div>
+						</div>
+					</form>
+					<div id="prbS">
+						<div id="rezultatPretrage" tabindex="-1" onBlur="style.display='none'"></div>
+					</div>
+					
+					<div id="log">
+						<img src="slike/login.png" alt="loginLogo" class="logIn"/>
+						<div class="logDiv">
+							<form>
+								<input type="button" value="LOGIN" id="prijava"/>
+								<input type="button" value="SIGN UP" id="registracija"/>
+							</form>
+						</div>
+						
+						<div id="prijavaDiv">
+							<form name="prijava" action="" method="get">
+								<div class="blokPrijava">
+									<h1 align="center">LOGIN</h1>
+								</div>
+								<table>
+									<tr>
+										<td><p class="prNaslov">USERNAME</p></td>
+									</tr>
+									<tr>
+										<td><input type="text" id="prIme" onBlur="upis()"/></td>
+									</tr>
+									<tr>
+										<td><p class="prNaslov">PASSWORD</p></td>
+									</tr>
+									<tr>
+										<td><input type="password" id="prLozinka"/></td>
+									</tr>
+									<tr>
+										<td><input type="button" value="LOGIN" id="bPrijava" onClick="ispis()"/></td>
+									</tr>	
+								</table>
+								<a class="zabLoz" href="#">Forgot password?</a>
+							</form>
+						</div>
+						
+						<div id="regDiv">
+							<form name="registracija" action="" method="get">
+								<div class="blokPrijava">
+									<h1 align="center">SIGN UP</h1>
+								</div>
+								<table>
+									<tr>
+										<td><p class="reNaslov">USERNAME</p></td>
+									</tr>
+									<tr>
+										<td><input type="text" id="reIme"/></td>
+									</tr>
+									<tr>
+										<td><p class="reNaslov">PASSOWRD</p></td>
+									</tr>
+									<tr>
+										<td><input type="password" id="reLozinka"/></td>
+									</tr>
+									<tr>
+										<td><p class="reNaslov">REPEAT PASSWORD</p></td>
+									</tr>
+									<tr>
+										<td><input type="password" id="reLozinka2"/></td>
+									</tr>
+									<tr>
+										<td><p align="center" class="reNaslov">EMAIL</p></td>
+									</tr>
+									<tr>
+										<td><input type="text" id="reEmail"/></td>
+									</tr>
+									
+									<tr>
+										<td>
+											<input type="button" value="SIGN UP" id="bRegistracija"/>
+											<input type="reset" value="RESET" id="bResetuj"/>
+										</td>
+									</tr>	
+								</table>
+							</form>
+						</div>
+					</div>
+					
+				
+			<div class="cisti"></div>
+		</nav>
+	
+			<div id="zaglavlje">
+			
+				<div id="slajder">
+				  <div id="banner-fade">
+					<ul class="bjqs">
+					  <li><img src="slike/banner01.jpg" title="NEW SEASON IS COMING SOON!" alt="New Season"></li>
+					  <li><img src="slike/banner02.jpg" title="GAME OF THRONES: BEHIND THE SCENES" alt="Behind the scenes"></li>
+					  <li><img src="slike/banner03.jpg" title="WINTER IS COMING!" alt="Winter is coming"></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+		
+		<div id="telo">
+			<div id="telo_vesti">
+				<h1>Conor McGregor to star in future GoT Seasons</h1>
+				
+				<p><img class="cvr" src="slike/conormcgregor2.jpg" alt="Conor McGregor"/>
+				It appears that Hafþór “The FrankenMountain” Björnsson may not have to keep carrying the weight of Game of Thrones‘s buffness levels on his shoulders all by himself anymore. A new rumor claims that someone with whom Hafþór has had dealings before may be involved in one of the two remaining seasons: famed UFC fighter Conor McGregor.</p></br></br>
+				<p>We’ll have to wait and see if any of this pans out. If it does, the question will then become what McGregor’s role will be. As I see it, there are three options: He will play a fullly fledged character, which is perhaps unlikely for a non-trained actor; He will play a mostly physical but still major role like Björnsson does; Or, lastly, that his presence in Game of Thrones will amount to a cameo, not unlike the many blink-and-you-miss-it appearances throughout the show’s history by European bands the producers enjoy. </p></br></br>
+				
+				
+				
+				
+				<div class="cisti"></div>
+			</div>
+				
+			<div id="telo_desno">
+					<div class="blokNaslov">
+						<h1>PREVIEW</h1>
+						<div class="blokNaslovProsiren1">
+							<div class="blokPreporuka">
+								<div class="pr"></div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="blokNaslov">
+						<h1>STARS</h1>
+						<div class="blokNaslovProsiren2">
+							<p><strong><a href="http://www.imdb.com/name/nm3229685/?ref_=tt_cl_t4">Kit Harington (Jon Snow)</a></strong></p><br/>
+							<p><strong><a href="http://www.imdb.com/name/nm3592338/?ref_=tt_cl_t3">Emilia Clarke (Daenerys Targaryen)</a></strong></p><br/>
+							<p><strong><a href="http://www.imdb.com/name/nm3849842/?ref_=tt_cl_t5">Sophie Tuerner (Sansa Stark)</a></strong></p><br/>
+							<p><strong><a href="http://www.imdb.com/name/nm0227759/?ref_=tt_cl_t1">Peter Dinklage (Tyrion Lannister)</a></strong></p><br/>
+							<p><strong><a href="http://www.imdb.com/name/nm0372176/?ref_=tt_cl_t2">Lena Headey (Cersei Lannister)</a></strong></p><br/>
+						</div>
+					</div>
+					
+					<div class="blokNaslov">
+						<h1 class="naslov1">SURVEY</h1>
+						<div class="blokNaslovProsiren">
+							<br/>
+							<h3>Who is your favorite character?</h3> <br/>
+							<form name="anketa">
+								<table>
+									<tr>
+										<td><input type="radio" name="poll" value="rez1"> Jon Snow</input></td>
+									</tr>
+									<tr>
+										<td><input type="radio" name="poll" value="rez2"> Tyrion Lannister</input></td>
+									</tr>
+									<tr>
+										<td><input type="radio" name="poll" value="rez3"> Daenerys Targaryen</input></td>
+									</tr>
+									<tr>
+										<td><input type="radio" name="poll" value="rez4"> Sansa Stark</input></td>
+									</tr>
+									<tr>
+										<td><input type="button" id="pollGlasaj" value="Vote"/></td>
+									</tr>
+								</table>
+							</form>
+							</br>
+							<div id="rezultatAnkete"></div>
+						</div>
+					</div>
+			</div>
+			<div class="cisti"></div>
+		</div>
+
+		<div id="futer">
+		
+			<div id="futLista">
+				<ul>
+					<li><a href="author.html">Author</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="documentation.pdf">Documentation</a></li>
+					<li><a href="sitemap.xml">Sitemap</a></li>
+				</ul>
+			</div>
+			<div id="ikonice">
+				<ul>
+					<li><a href="https://twitter.com/gameofthrones"><img src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Twitter-icon.png" alt="twitter"/></a></li>
+					<li><a href="https://www.facebook.com/GameOfThrones/"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" alt="facebook"/></a></li>
+					<li><a href="rss.xml"><img src="http://www-prod-storage.cloud.caltech.edu.s3.amazonaws.com/RSS_button_1021.png" alt="rss"/></a></li>
+				</ul>
+			</div>
+			<p class="copyright">&copy Đorđe Jordanović 107/15</p>
+			
+		</div>
+		
+	</div>
+
+</body>
+
+</html>
+
